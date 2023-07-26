@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    font-family: cursive, Lucida Handwriting;
+    color: #ffffff;
+}
+
+.todos-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1D;
+    min-height: 100vh;
+
+}
+
+.todos-heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* font-family: "Monospace","Lucida Console"; */
+    font-family: cursive, Lucida Handwriting;
+    color: #c3073f;
+}
+
+.todos-heading:hover {
+    /* text-shadow: 0 0 6px #; */
+    transform: scale(1.03);
+    cursor: all-scroll;
+    color: #f13c20;
+}
+
+.my-task-text {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.my-task-text-sub-part {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.todo-user-input {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    padding: 15px;
+    color: #000000;
+    font-family: cursive, Lucida Handwriting;
+}
+
+.todo-user-input:hover {
+    box-shadow: 5px 5px 35px 5px white;
+    border: 2px solid black;
+}
+
+.button {
+    color: white;
+    background-color: #379683;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-family: cursive, Lucida Handwriting;
+    border-width: 0;
+    border-radius: 4px;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.button:hover {
+    background-color: #5cdb95;
+    box-shadow: 5px 5px 35px 5px #379683;
+    color: black;
+    transform: scale(1.17);
+    cursor: all-scroll;
+    color: #000000;
+    text-shadow: 0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 20px #ffffff;
+}
+
+.todo-lists-container {
+    padding: 0px;
+    margin: 0px;
+}
+
+.todo-list-container {
+    list-style-type: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.checkbox {
+    margin-top: 16px;
+    height: 20px;
+    width: 20px;
+    margin-right: 14px;
+    accent-color: #5cdb95;
+
+
+}
+
+.label-container {
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 14px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    border: 7px solid #3feee6;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 0px;
+    /* padding-top: 0px; */
+}
+
+.label-container:hover {
+    transform: scale(1.02);
+    cursor: all-scroll;
+}
+
+.para {
+    font-family: cursive, Lucida Handwriting;
+    color: #000000;
+    margin-left: 15px;
+    width: 90%;
+    max-height: 200px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+.para::-webkit-scrollbar {
+    display: none;
+}
+
+.delete-icon {
+    color: black;
+    width: 10%;
+    font-size: 20px;
+    margin-right: 25px;
+    color: red;
+}
+
+.delete-icon:hover {
+    transform: scale(1.2);
+    cursor: all-scroll;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #fc4445;
+}
+
+.delete-container {
+    width: 10%;
+    align-items: center;
+}
+
+.datetime-btn {
+    font-size: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    height: 20px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.datetime-btn:hover {
+    transform: scale(1.2);
+    cursor: all-scroll;
+    background-color: #3feee6;
+    color: #000000;
+    border: none;
+}
+
+.saved-icon {
+    font-size: 20px;
+    background-color: #de3700;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
